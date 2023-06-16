@@ -9,6 +9,7 @@ function validation(values){
     }
     else if (!email_pattern.test(values.email)) {
         error.email ="Email didn't match"
+        jcbjbsdvbsdbv
     }else  {
         error.email = ""
     }
