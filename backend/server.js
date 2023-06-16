@@ -21,6 +21,7 @@ app.post('/signup', (req,res)=>{
         req.body.email,
         req.body.password
     ]
+    
     db.query(sql,[values], (err,data)=>{
         if (err) {
             return res.json('Error');
